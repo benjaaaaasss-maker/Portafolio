@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Básico -->
+  <title>Benjamin Acuña Felix - Mi Perfil Personal | Desarrollador Web en Formación</title>
+  <meta name="description"
+    content="Perfil personal de Benjamin Acuña. Estudiante de ingenieria de Sistemas en formación aprendiendo ejerccios de desarrollo web como html, css, entre otros.">
+  <meta name="keywords" content="perfil personal, Estudiante, portfolio, HTML, CSS, desarrollo web">
+  <meta name="author" content="Benjamin Acuña">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph para Redes Sociales -->
+  <meta property="og:title" content="Benjamin Acuña - Mi Perfil Personal">
+  <meta property="og:description"
+    content="Compartamos juntos aprendizajes sobre practicas modernas de la tecnologia">
+  <meta property="og:image" content="https://miperfilpersonal.com/assets/images/og-preview.jpg">
+  <meta property="og:url" content="https://miperfilpersonal.com">
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Mi Perfil Personal">
+
+  <!-- URLs Canónicas -->
+  <link rel="canonical" href="https://miperfilpersonal.com/">
+  <link rel="alternate" hreflang="es" href="https://miperfilpersonal.com/es/">
+  <link rel="alternate" hreflang="en" href="https://miperfilpersonal.com/en/">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body>
+  <!-- 
+    ========================================
+    HEADER PRINCIPAL
+    ========================================
+    -->
+
+  <header role="banner">
+    <!-- Logo y Marca Personal -->
+    <div class="brand">
+      <a href="/" aria-label="Mi Perfil Personal - Inicio">
+        <img src="/assets/icons/perfil-logo.svg" alt="Mi Perfil Personal" width="48" height="48">
+        <span>Mi Perfil Personal</span>
+      </a>
+    </div>
+
+    <!-- Navegación Principal -->
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="/" aria-current="page">Inicio</a></li>
+        <li><a href="/sobre-mi.html">Sobre mí</a></li>
+        <li><a href="/habilidades.html">Habilidades</a></li>
+        <li><a href="/proyectos.html">Proyectos</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- Acciones Rápidas -->
+    <div class="header-actions">
+      <a href="/assets/documents/cv-diego-degranda.pdf" download aria-label="Descargar CV en PDF">
+        📄 CV
+      </a>
+
+      <!-- Selector de Idioma -->
+      <select aria-label="Seleccionar idioma">
+        <option value="es" selected>ES</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- 
+    ========================================
+    CONTENIDO PRINCIPAL
+    ========================================
+    -->
+
+  <main id="contenido-principal" role="main">
+
+    <!-- Hero Section -->
+    <section aria-labelledby="hero-titulo">
+      <h1 id="hero-titulo">¡Hola! Soy Benjamin Acuña</h1>
+      <p><strong>Estudiante de ingnieria de Sistemas</strong></p>
+      <p>
+        Estoy aprendiendo HTML y CSS para crear sitios web funcionales. 
+        Mi pasión: transformar ideas en experiencias web increíbles.
+      </p>
+
+      <!-- Call to Actions -->
+      <div class="hero-actions">
+        <a href="#proyectos-destacados">Ver Mi Proyecto</a>
+      </div>
+
+      <!-- Estadísticas Rápidas -->
+      <div class="hero-stats">
+        <div>
+          <data value="6">+1</data>
+          <span>Meses aprendiendo</span>
+        </div>
+        <div>
+          <data value="3">1</data>
+          <span>Proyecto completado</span>
+        </div>
+        <div>
+          <data value="5">+3</data>
+          <span>Tecnologías</span>
+        </div>
+      </div>
+
+      <!-- Imagen de Perfil -->
+      <figure>
+        <picture>
+          <source media="(min-width: 768px)" srcset="imagenes/foto de perfil.jpeg" type="image/webp">
+          <source media="(min-width: 768px)" srcset="imagenes/foto de perfil.jpeg">
+          <img src="imagenes/foto de perfil.jpeg" alt="Benjamin Acuña - Desarrollador Web en Formación"
+            width="500" height="500" loading="eager">
+        </picture>
+        <figcaption>Benjamin Acuña</figcaption>
+      </figure>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section aria-labelledby="about-titulo">
+      <h2 id="about-titulo">Mi Viaje en el Desarrollo Web</h2>
+
+      <p>
+        Soy <strong>desarrollador web en formación</strong>,
+        actualmente aprendiendo HTML y CSS para crear sitios
+        web funcionales.
+      </p>
+
+      <p>
+        Me entusiasma la tecnología,
+        y constantemente descubro formas innovadoras de crecer y construir
+        <em>mejores experiencias web</em>.
+      </p>
+
+      <blockquote>
+        <p>
+         
+          Mi propósito es diseñar sitios web que combinen estética 
+          y funcionalidad.
+        </p>
+        <cite>— Mi critero o marco de aprendizaje</cite>
+      </blockquote>
+
+      <!-- Valores Personales -->
+      <h3>Mis Valores</h3>
+      <dl>
+        <dt>📚 Responsabilidad</dt>
+        <dd>Aceptando las consecuencias de mis decisiones y actos con seriedad</dd>
+
+        <dt>🫡 Honestidad</dt>
+        <dd> Actuando siempre con transparencia y verdad en todas mis acciones.</dd>
+
+        <dt>🤝 Compromiso</dt>
+        <dd>Cumpliendo con dedicación y constancia cada meta que asumo</dd>
+
+        <dt>🙌 Solidaridad</dt>
+        <dd>Apoyo y colaboro desinteresadamente con quienes lo necesitan</dd>
+      </dl>
+
+      <a href="/sobre-mi.html">
+        Conoce más sobre mí →
+      </a>
+    </section>
+
+    <!-- Proyectos Destacados -->
+    <section id="proyectos-destacados" aria-labelledby="projects-titulo">
+      <h2 id="projects-titulo">Mi Proyecto de Práctica</h2>
+      <p>
+        Cada proyecto es una muestra de mi 
+        crecimiento en desarrollo web, como este portafolio completo.
+      </p>
+
+      <!-- Proyecto 1 -->
+      <article>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="imagenes/proyecto.jpeg">
+            <img src="imagenes/proyecto.jpeg" alt="Captura de mi primer sitio web con HTML y CSS"
+              width="800" height="600" loading="lazy">
+          </picture>
+          <figcaption>Mi Primer Sitio Web - HTML y CSS básico</figcaption>
+        </figure>
+
+        <h3>Mi Primer Sitio Web</h3>
+        <p>
+          Mi primer proyecto completo usando HTML y CSS. Una página
+          simple pero bien estructurada donde apliqué los conceptos
+          básicos aprendidos.
+        </p>
+
+        <h4>Lo que aprendí:</h4>
+        <ul>
+          <li>🎯 Estructura semántica de HTML</li>
+          <li>📊 Box Model y layout básico</li>
+          <li>🎨 Estilos CSS fundamentales</li>
+          <li>♿ Principios básicos de accesibilidad</li>
+          <li>📱 Introducción al diseño responsivo</li>
+        </ul>
+
+        <h4>Tecnologías usadas:</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+        </ul>
+
+        <h4>Logros del proyecto:</h4>
+        <div>
+          <data value="100">100%</data> HTML válido
+        </div>
+        <div>
+          <data value="0">0</data> Errores de accesibilidad
+        </div>
+        <div>
+          <data value="95">95</data> Score en Lighthouse
+        </div>
+
+        <a href="/proyectos/primer-sitio.html">
+          Ver detalles del proyecto
+        </a>
+        <a href="https://demo.miprimer-sitio.com" target="_blank" rel="noopener">
+          Ver demo ↗
+        </a>
+      </article>
+
+      <a href="/proyectos.html">
+        Ver todos los proyectos →
+      </a>
+    </section>
+
+    <section aria-labelledby="skills-titulo">
+      <h2 id="skills-titulo">Mis Habilidades</h2>
+
+      <h3>Tecnologías que estoy aprendiendo</h3>
+      <ul>
+        <li>
+          <img src="imagenes/hmtl y semantica.jpeg" alt="" width="40" height="40" aria-hidden="true">
+          <span>HTML5 & Semántica</span>
+          <progress value="60" max="100" aria-label="60% de dominio">
+            60%
+          </progress>
+        </li>
+        <li>
+          <img src="imagenes/CSS3.jpeg" alt="" width="40" height="40" aria-hidden="true">
+          <span>CSS3 & Diseño</span>
+          <progress value="50" max="100" aria-label="50% de dominio">
+            50%
+          </progress>
+        </li>
+        <li>
+          <img src="imagenes/JS.jpeg" alt="" width="40" height="40" aria-hidden="true">
+          <span>JavaScript (Comenzando)</span>
+          <progress value="20" max="100" aria-label="20% de dominio">
+            20%
+          </progress>
+        </li>
+      </ul>
+    </section>
+
+      <!-- Artículo 1 -->
+      <article>
+        <time datetime="2025-01-15">26 Noviembre 2025</time>
+        <h3>
+          <a href="/blog/mi-primer-mes.html">
+            Mi Primer Mes Aprendiendo HTML
+          </a>
+        </h3>
+        <p>
+          Reflexiones sobre lo que aprendí en mi primer mes
+          estudiando desarrollo web.
+        </p>
+        <div><span> <strong>Descubrimiento de la estructura básica de la web:</strong> 
+          Aprendí que HTML es el esqueleto de cualquier página, y 
+          que cada etiqueta tiene un propósito claro para organizar
+           el contenido.</span></div>
+           <div><span> <strong>valor de los pequeños logros:</strong> Crear mi primera página, 
+            aunque sencilla, me dio motivación y confianza para seguir 
+            aprendiendo </span></div>
+            <div><span> <strong>Conexión con el futuro:</strong> Entendí que dominar HTML es 
+              el primer paso hacia un camino más amplio, que incluye CSS,
+               JavaScript y frameworks modernos. </span></div>
+      </article>
+      </a>
+    </section>
+
+    <section aria-labelledby="cta-titulo">
+      <h2 id="cta-titulo">¿Te gustaría conectar?</h2>
+      <p>
+        Siempre estoy buscando aprender de otros desarrolladores,
+        compartir experiencias y tal vez colaborar en proyectos
+        interesantes.
+      </p>
+
+      <div>
+        <h3>🚀 Proyectos de Práctica</h3>
+        <p>¿Tienes una idea? Colaboremos y aprendamos juntos</p>
+        <a href="/contacto.html#colaborar">Colaborar</a>
+      </div>
+
+      <div>
+        <h3>💬 Conectemos</h3>
+        <p>¿Eres principiante también? Aprendamos juntos</p>
+        <a href="/contacto.html#conectar">Conectar</a>
+      </div>
+
+      <div>
+        <h3>📚 Recursos</h3>
+        <p>Compartamos recursos y tips de aprendizaje</p>
+        <a href="/contacto.html#recursos">Compartir</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <section aria-labelledby="footer-about">
+      <h2 id="footer-about">Mi Perfil Personal</h2>
+      <p>
+        Portfolio personal de Benjamin Acuña.
+        Construyendo mi camino en desarrollo web paso a paso.
+      </p>
+
+      <form action="/newsletter" method="POST">
+        <label for="newsletter-email">
+          Suscríbete
+        </label>
+        <input type="email" id="newsletter-email" name="email" placeholder="tu@email.com" required aria-required="true">
+        <button type="submit">Suscribir</button>
+      </form>
+    </section>
+
+    <!-- Contacto -->
+    <section aria-labelledby="footer-contact">
+      <h2 id="footer-contact">Contacto</h2>
+      <address>
+        <dl>
+          <dt>Email:</dt>
+          <dd>
+            <a href="mailto:diego@miperfilpersonal.com">
+              benjaaaaasss@gmail.com
+            </a>
+          </dd>
+
+          <dt>GitHub:</dt>
+          <dd>
+            <a href="https://github.com/benjaaaaasss-maker" target="_blank" rel="noopener">
+              https://github.com/benjaaaaasss-maker
+            </a>
+          </dd>
+
+          <dt>Ubicación:</dt>
+          <dd>Huancayo, Perú</dd>
+        </dl>
+      </address>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section aria-labelledby="footer-social">
+      <h2 id="footer-social">Sígueme</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/benjaaaaasss-maker" target="_blank" rel="noopener"
+            aria-label="GitHub de Diego De Granda">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/diegodegranda_dev" target="_blank" rel="noopener"
+            aria-label="Twitter de Benjamin Acuña">
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/diego-degranda-dev" target="_blank" rel="noopener"
+            aria-label="LinkedIn de Benjamin Acuña">
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+
+      <!-- Descargas -->
+      <a href="imagenes/CV_Benjamin_Acuna_Felix.pdf" download>
+        📄 Descargar mi CV (PDF)
+      </a>
+    </section>
+
+    <!-- Footer Bottom -->
+    <div>
+      <p>&copy; 2026 Benjamin - Mi Perfil Personal. Todos los derechos reservados.</p>
+
+      <nav aria-label="Enlaces legales">
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/terminos.html">Términos</a>
+        <a href="/accesibilidad.html">Accesibilidad</a>
+      </nav>
+
+      <p>
+        Diseñado y desarrollado con ❤️ por Benjamin Acuña
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
